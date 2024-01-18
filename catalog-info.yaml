@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ${{ values.name | dump }}
+  description: backstage.io
+  annotations:
+    github.com/project-slug: 'backstage/backstage'
 spec:
   type: service
   owner: user:guest
