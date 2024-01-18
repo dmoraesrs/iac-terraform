@@ -4,7 +4,7 @@ metadata:
   name: ${{ values.name | dump }}
   description: backstage.io
   annotations:
-    github.com/project-slug: 'backstage/backstage'
+    github.com/project-slug: 'dmoraesrs'
 spec:
   type: service
   owner: user:guest
